@@ -1,0 +1,4 @@
+how can I create InheritedWidget:?
+
+runAPP()- MAKE TOSTART all widgests
+flutter use composion rather than in heritance
