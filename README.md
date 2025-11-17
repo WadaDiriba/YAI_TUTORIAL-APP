@@ -1,6 +1,6 @@
 # yai_app
 
-A new Flutter project.
+Mastering of flutter in the with experinced flutter Developer
 
 ## Getting Started
 
