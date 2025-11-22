@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+
 class ProfileAPP extends StatelessWidget {
   const ProfileAPP({super.key});
 
@@ -71,7 +72,8 @@ class ProfileAPP extends StatelessWidget {
 
                       SizedBox(width: 8),
 
-                       Text("Jimmaa, Ethiopia",style: TextStyle(
+                       Text("Jimmaa, Ethiopia",
+                       style: TextStyle(
                        fontSize: 24,
                         fontWeight: FontWeight.w100),
                         
@@ -99,6 +101,7 @@ class ProfileAPP extends StatelessWidget {
                   )
               
             ),
+            
            );
   }
 }

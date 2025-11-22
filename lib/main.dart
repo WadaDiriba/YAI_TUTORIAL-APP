@@ -1,12 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:yai_app/music_player.dart';
+import 'package:yai_app/widget2.dart';
+import 'package:yai_app/widgets1.dart';
 
-import 'package:yai_app/messageclone.dart';
+void main()=>runApp( const MyApp());
 
-void main(){
-
-  runApp( const MyApp());
-
-}
 class MyApp extends StatelessWidget{
 
   const MyApp({super.key});
@@ -16,12 +14,13 @@ class MyApp extends StatelessWidget{
   Widget build(BuildContext context){
 
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
 
-          home:Messageclone(),
+         debugShowCheckedModeBanner: false,
+
+          home:Widget2(),
+          
 
            );
-
     
   }
 }

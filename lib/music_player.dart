@@ -44,9 +44,7 @@ class _MusicPlayerState extends State<MusicPlayer> {
                    icon: Icon(Icons.more_vert,color: Colors.white,),
                    onSelected: (value) {
                      print(value);
-                   },
-                
-                
+                   },    
                 
                 itemBuilder:(context)=>[
 
@@ -74,28 +72,14 @@ class _MusicPlayerState extends State<MusicPlayer> {
                     value: "set as ringtone",
                     child: Text("set as ringtone"),
                     ),
-
-                    
-                
                     
                 ]
-                
-                
+                        
               )
                 ],
            centerTitle: true,
       ),
-      
-
-
-                
-
-              
-                
-  
-        
-      
-
+         
       body: Padding(
         
         padding: EdgeInsets.all(20),
@@ -112,11 +96,10 @@ class _MusicPlayerState extends State<MusicPlayer> {
                     image:AssetImage("assets/images/Music.png"),
                     fit: BoxFit.cover,
 
-                  
-                  ),
+                         ),
                   
                 ),
-              ),
+            ),
 
               const SizedBox(height: 25,),
               const Text("Holyspirit Song",
@@ -161,9 +144,12 @@ class _MusicPlayerState extends State<MusicPlayer> {
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
 
-                        const Text("0:20",style: TextStyle(color: Colors.white),
+                        const Text("0:20",style: TextStyle(
+                          color: Colors.white),
                         ),
-                        const Text("4:20",style: TextStyle(color: Colors.white),
+                        const Text("4:20",style: TextStyle(
+
+                          color: Colors.white),
                         )
                       ],
                     ),
@@ -174,11 +160,13 @@ class _MusicPlayerState extends State<MusicPlayer> {
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
 
-                         Icon(Icons.shuffle_sharp,color: Colors.white,),
+                         Icon(Icons.shuffle_sharp,
+                         color: Colors.white,),
 
                          SizedBox(width: 5,),
                         Icon(Icons.skip_previous,
-                            size: 45,color: Colors.white.withOpacity(0.9),
+                            size: 45,
+                            color: Colors.white.withOpacity(0.9),
 
                           
                         
@@ -202,8 +190,7 @@ class _MusicPlayerState extends State<MusicPlayer> {
                                     
                         ),
 
-                             
-
+                            
                               SizedBox(width: 5,),
                           Icon(Icons.skip_next,
                           
@@ -213,12 +200,7 @@ class _MusicPlayerState extends State<MusicPlayer> {
                           Icon(Icons.shuffle,color: Colors.white,)
                       
                       ],
-                    )
-
-
-
-
-              
+                    ),              
             ],
         ),
         ),

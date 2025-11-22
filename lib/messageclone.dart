@@ -100,10 +100,10 @@ class Messageclone extends StatelessWidget {
                 
                     color: Colors.black,
                     fontWeight: FontWeight.bold,
-                    fontSize: 20
+                    fontSize: 20,
                   ) ),
                 
-                    Text("Waaqayyo gaaridhaam buchookoo",
+                  Text("Waaqayyo gaaridhaam Addii",
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
                     fontSize: 20,
