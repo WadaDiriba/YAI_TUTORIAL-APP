@@ -14,6 +14,8 @@ class TelegramClone extends StatelessWidget{
   Widget build(BuildContext context) {
     return   Scaffold(
 
+      
+
          appBar: AppBar(
 
          
@@ -52,7 +54,7 @@ class TelegramClone extends StatelessWidget{
         
               
               },
-              icon:Icon(Icons.menu))
+              icon:Icon(Icons.menu)),
            ),
          ),
 
@@ -133,6 +135,8 @@ class TelegramClone extends StatelessWidget{
          ),
 
          body: Padding(
+
+          
           
           padding: EdgeInsets.all(20),
           child: Column(
@@ -341,31 +345,304 @@ class TelegramClone extends StatelessWidget{
               ),
               SizedBox(height: 40,),
 
-               Column(
+//                SingleChildScrollView(
+//   child: Column(
+//     children: [
+//       Row(
+//         children: [
 
-                    children: [
+          
+//           Container(
+//             width: 60,
+//             height: 60,
+//             child: CircleAvatar(
 
-                      Row(
+              
+//               radius: 30,
+//               backgroundColor: Colors.blue,
+//             ),
 
-                        children: [
+            
+//           ),
 
-                          Container(
+//           SizedBox(width: 12),
 
-                           
+//           Text(
+//             "Wada Diriba",
+//             style: TextStyle(
+//               color: Colors.white,
+//               fontSize: 25,
+//               fontWeight: FontWeight.bold,
+//             ),
 
-                            decoration: BoxDecoration(
-                               color: Colors.white,
+//           ),
+//         ],
+//       ),
+//     ],
+//   ),
+// ),
+// SizedBox(height: 20,),
+//   SingleChildScrollView(
+//   child: Column(
+//     children: [
+//       Row(
+//         children: [
 
-                              borderRadius: BorderRadius.circular(20),
-                              
+          
+//           Container(
+//             width: 60,
+//             height: 60,
+//             child: CircleAvatar(
 
-                            ),
-                            child: Text(".......whhhhhhhhh.."),
-                          )
-                        ],
-                      )
-                    ],
-                  )
+              
+//               radius: 30,
+//               backgroundColor: Colors.blue,
+//             ),
+
+            
+//           ),
+
+//           SizedBox(width: 12),
+
+//           Text(
+//             "Wada Diriba",
+//             style: TextStyle(
+//               color: Colors.white,
+//               fontSize: 25,
+//               fontWeight: FontWeight.bold,
+//             ),
+
+//           ),
+//         ],
+//       ),
+//     ],
+//   ),
+// ),
+// SizedBox(height: 20,),
+//   SingleChildScrollView(
+//   child: Column(
+//     children: [
+//       Row(
+//         children: [
+
+          
+//           Container(
+//             width: 60,
+//             height: 60,
+//             child: CircleAvatar(
+
+              
+//               radius: 30,
+//               backgroundColor: Colors.blue,
+//             ),
+
+            
+//           ),
+
+//           SizedBox(width: 12),
+
+//           Text(
+//             "Muse Wada",
+//             style: TextStyle(
+//               color: Colors.white,
+//               fontSize: 25,
+//               fontWeight: FontWeight.bold,
+//             ),
+
+//           ),
+//         ],
+//       ),
+//     ],
+//   ),
+// ),
+// SizedBox(height: 20,),
+//   SingleChildScrollView(
+//   child: Column(
+//     children: [
+//       Row(
+//         children: [
+
+          
+//           Container(
+//             width: 60,
+//             height: 60,
+//             child: CircleAvatar(
+
+              
+//               radius: 30,
+//               backgroundColor: Colors.blue,
+//             ),
+
+            
+//           ),
+
+//           SizedBox(width: 12),
+
+//           Text(
+//             "Simboo Mul'ataa",
+//             style: TextStyle(
+//               color: Colors.white,
+//               fontSize: 25,
+//               fontWeight: FontWeight.bold,
+//             ),
+
+//           ),
+//         ],
+//       ),
+//     ],
+//   ),
+// ),
+
+// SizedBox(height: 20,),
+//   SingleChildScrollView(
+//   child: Column(
+//     children: [
+//       Row(
+//         children: [
+
+          
+//           Container(
+//             width: 60,
+//             height: 60,
+//             child: CircleAvatar(
+
+              
+//               radius: 30,
+//               backgroundColor: Colors.blue,
+//             ),
+
+            
+//           ),
+
+//           SizedBox(width: 12),
+
+//           Text(
+//             "Dereje Keba",
+//             style: TextStyle(
+//               color: Colors.white,
+//               fontSize: 25,
+//               fontWeight: FontWeight.bold,
+//             ),
+
+//           ),
+//         ],
+//       ),
+//     ],
+//   ),
+// ),
+// SizedBox(height: 20,),
+//   SingleChildScrollView(
+//   child: Column(
+//     children: [
+//       Row(
+//         children: [
+
+          
+//           Container(
+//             width: 60,
+//             height: 60,
+//             child: CircleAvatar(
+
+              
+//               radius: 30,
+//               backgroundColor: Colors.blue,
+//             ),
+
+            
+//           ),
+
+//           SizedBox(width: 12),
+
+//           Text(
+//             "Diboora Wada",
+//             style: TextStyle(
+//               color: Colors.white,
+//               fontSize: 25,
+//               fontWeight: FontWeight.bold,
+//             ),
+
+//           ),
+//         ],
+//       ),
+//     ],
+//   ),
+// ),
+  Padding(
+
+  
+  padding: const EdgeInsets.symmetric(vertical: 12),
+  child: Row(
+    crossAxisAlignment: CrossAxisAlignment.start,
+    children: [
+
+      // Avatar
+      CircleAvatar(
+        radius: 30,
+        backgroundColor: Colors.blue,
+      ),
+
+      SizedBox(width: 12),
+
+      // Name + Message
+      Expanded(
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+
+            // Name and Time
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Text(
+                  "Wada Diriba",
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 18,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+
+                Text(
+                  "12:45",
+                  style: TextStyle(
+                    color: Colors.grey,
+                    fontSize: 14,
+                  ),
+                ),
+              ],
+            ),
+
+            SizedBox(height: 6),
+
+            // Last Message
+            RichText(
+              text: TextSpan(
+                children: [
+                  TextSpan(
+                    text: "You: ",
+                    style: TextStyle(
+                      color: Colors.grey,
+                      fontWeight: FontWeight.bold,
+                      fontSize: 15,
+                    ),
+                  ),
+                  TextSpan(
+                    text: "Ani amma deemeera.badhaasaan dhufee si dhabee deebihee rafe nyaate rafe what everthing you do can ",
+                    style: TextStyle(
+                      color: Colors.grey,
+                      fontSize: 15,
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ],
+        ),
+      ),
+    ],
+  ),
+)
+
 
             
             ],
