@@ -34,12 +34,14 @@ class Widget2 extends StatelessWidget{
                           borderRadius: BorderRadius.circular(10),
                           border: Border.all(color: Colors.black)
                         ),
-                        child: Text("Hello Wada",style: TextStyle(
-
-                          fontSize: 25,
-                          fontWeight: FontWeight.bold,
-
-                        ),),
+                        child: Center(
+                          child: Text("Hello Wada",style: TextStyle(
+                          
+                            fontSize: 25,
+                            fontWeight: FontWeight.bold,
+                          
+                          ),),
+                        ),
                       )
                     ],
                   ),

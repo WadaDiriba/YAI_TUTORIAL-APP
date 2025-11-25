@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:yai_app/music_player.dart';
 import 'package:yai_app/widget2.dart';
+import 'package:yai_app/widget3.dart';
+import 'package:yai_app/widget4.dart';
 import 'package:yai_app/widgets1.dart';
 
 void main()=>runApp( const MyApp());
@@ -17,7 +19,7 @@ class MyApp extends StatelessWidget{
 
          debugShowCheckedModeBanner: false,
 
-          home:Widget2(),
+          home:Widget4(),
           
 
            );
