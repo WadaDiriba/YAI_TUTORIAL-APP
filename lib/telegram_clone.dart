@@ -106,7 +106,8 @@ class TelegramClone extends StatelessWidget{
 
                                 children: [
 
-                              Text("Wada Diriba",style: TextStyle(
+                              Text("Wada Diriba",
+                               style: TextStyle(
 
                                     color: Colors.white,
                                   ),),
@@ -127,9 +128,47 @@ class TelegramClone extends StatelessWidget{
                                icon:Icon(Icons.arrow_drop_down,
                                size: 40,))
                             ],
-                          )
+                          ),
+                         
+
+                         
+          
+
                       ],
-                    ) )
+
+                      
+
+                      
+                    ),
+                    
+                    
+                    
+                     ),
+
+                     Column(
+
+                          children: [
+
+                            Row(
+
+                              children: [
+
+                                  Icon(Icons.person, size: 40,color: Colors.grey,),
+
+                                  SizedBox(width: 10,),
+
+
+                                  Text("My profile",style: TextStyle(
+
+                                    color: Colors.white,
+
+                                    fontWeight: FontWeight.bold,
+                                  ),)
+                              
+                              ],
+                            )
+                          ],
+                         )
                 ],
               ) ,
          ),
@@ -148,14 +187,7 @@ class TelegramClone extends StatelessWidget{
 
                 children: [
 
-                  Row(
-
-                    children: [
-
-                      
-
-                    ],
-                  ),
+                  
 
                   
 
@@ -232,7 +264,7 @@ class TelegramClone extends StatelessWidget{
 
                       borderRadius: BorderRadius.circular(60)),
                         child: Center(
-                          child: Text(""),
+                          child: Text(" Wada Diriba"),
                           
                         ),
                      ),
@@ -335,326 +367,192 @@ class TelegramClone extends StatelessWidget{
                       ),),
                     )
                   ],
+
                  ),
 
                  
-                 
-                 
-
                 ],
               ),
-              SizedBox(height: 40,),
 
-//                SingleChildScrollView(
-//   child: Column(
-//     children: [
-//       Row(
-//         children: [
 
-          
-//           Container(
-//             width: 60,
-//             height: 60,
-//             child: CircleAvatar(
+              SingleChildScrollView(
 
-              
-//               radius: 30,
-//               backgroundColor: Colors.blue,
-//             ),
+                child: Column(
 
-            
-//           ),
+                  children: [
 
-//           SizedBox(width: 12),
+                    Row(
 
-//           Text(
-//             "Wada Diriba",
-//             style: TextStyle(
-//               color: Colors.white,
-//               fontSize: 25,
-//               fontWeight: FontWeight.bold,
-//             ),
+                      mainAxisAlignment: MainAxisAlignment.start,
+                      
+                      children: [
 
-//           ),
-//         ],
-//       ),
-//     ],
-//   ),
-// ),
-// SizedBox(height: 20,),
-//   SingleChildScrollView(
-//   child: Column(
-//     children: [
-//       Row(
-//         children: [
+                        CircleAvatar(
 
-          
-//           Container(
-//             width: 60,
-//             height: 60,
-//             child: CircleAvatar(
+                          backgroundColor: Colors.green,
 
-              
-//               radius: 30,
-//               backgroundColor: Colors.blue,
-//             ),
 
-            
-//           ),
+                        ),
 
-//           SizedBox(width: 12),
+                        SizedBox(width: 10,),
 
-//           Text(
-//             "Wada Diriba",
-//             style: TextStyle(
-//               color: Colors.white,
-//               fontSize: 25,
-//               fontWeight: FontWeight.bold,
-//             ),
 
-//           ),
-//         ],
-//       ),
-//     ],
-//   ),
-// ),
-// SizedBox(height: 20,),
-//   SingleChildScrollView(
-//   child: Column(
-//     children: [
-//       Row(
-//         children: [
 
-          
-//           Container(
-//             width: 60,
-//             height: 60,
-//             child: CircleAvatar(
+                        Expanded(
+                          child: Column(
 
-              
-//               radius: 30,
-//               backgroundColor: Colors.blue,
-//             ),
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
 
-            
-//           ),
+                            Text("Wada",
+                            style: TextStyle(
 
-//           SizedBox(width: 12),
+                              color: Colors.white,
 
-//           Text(
-//             "Muse Wada",
-//             style: TextStyle(
-//               color: Colors.white,
-//               fontSize: 25,
-//               fontWeight: FontWeight.bold,
-//             ),
+                            ),
+                            
+                            ),
 
-//           ),
-//         ],
-//       ),
-//     ],
-//   ),
-// ),
-// SizedBox(height: 20,),
-//   SingleChildScrollView(
-//   child: Column(
-//     children: [
-//       Row(
-//         children: [
+                            SizedBox(width: 4,),
 
-          
-//           Container(
-//             width: 60,
-//             height: 60,
-//             child: CircleAvatar(
 
-              
-//               radius: 30,
-//               backgroundColor: Colors.blue,
-//             ),
+                            Text("God with mw at all everthign I do ,beyond my limitation of may life",
+                              style: TextStyle(
 
-            
-//           ),
+                                color: Colors.white,
 
-//           SizedBox(width: 12),
+                                overflow: TextOverflow.ellipsis,
 
-//           Text(
-//             "Simboo Mul'ataa",
-//             style: TextStyle(
-//               color: Colors.white,
-//               fontSize: 25,
-//               fontWeight: FontWeight.bold,
-//             ),
+                                  fontSize:20,
 
-//           ),
-//         ],
-//       ),
-//     ],
-//   ),
-// ),
+                                  fontWeight: FontWeight.bold,
+                              ),
+                            
+                            ),
 
-// SizedBox(height: 20,),
-//   SingleChildScrollView(
-//   child: Column(
-//     children: [
-//       Row(
-//         children: [
+                      
 
-          
-//           Container(
-//             width: 60,
-//             height: 60,
-//             child: CircleAvatar(
 
-              
-//               radius: 30,
-//               backgroundColor: Colors.blue,
-//             ),
+                      
 
-            
-//           ),
 
-//           SizedBox(width: 12),
 
-//           Text(
-//             "Dereje Keba",
-//             style: TextStyle(
-//               color: Colors.white,
-//               fontSize: 25,
-//               fontWeight: FontWeight.bold,
-//             ),
+                          ],
+                        )
+                        
+                        
+                        ),
 
-//           ),
-//         ],
-//       ),
-//     ],
-//   ),
-// ),
-// SizedBox(height: 20,),
-//   SingleChildScrollView(
-//   child: Column(
-//     children: [
-//       Row(
-//         children: [
 
-          
-//           Container(
-//             width: 60,
-//             height: 60,
-//             child: CircleAvatar(
+                        SizedBox(width: 10,),
 
-              
-//               radius: 30,
-//               backgroundColor: Colors.blue,
-//             ),
 
-            
-//           ),
+                        Column(
 
-//           SizedBox(width: 12),
+                              children: [
 
-//           Text(
-//             "Diboora Wada",
-//             style: TextStyle(
-//               color: Colors.white,
-//               fontSize: 25,
-//               fontWeight: FontWeight.bold,
-//             ),
+                                 Text("2:45",
+                                 
+                                 style: TextStyle(
 
-//           ),
-//         ],
-//       ),
-//     ],
-//   ),
-// ),
-  Padding(
+                                  color:Colors.white60,
+                                  
 
-  
-  padding: const EdgeInsets.symmetric(vertical: 12),
-  child: Row(
-    crossAxisAlignment: CrossAxisAlignment.start,
-    children: [
 
-      // Avatar
-      CircleAvatar(
-        radius: 30,
-        backgroundColor: Colors.blue,
-      ),
+                                 ),
+                                 
+                                 ),
 
-      SizedBox(width: 12),
+                                 Container(
 
-      // Name + Message
-      Expanded(
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
+                                  width: 20,
+                                  height: 20,
 
-            // Name and Time
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
-                Text(
-                  "Wada Diriba",
-                  style: TextStyle(
-                    color: Colors.white,
-                    fontSize: 18,
-                    fontWeight: FontWeight.bold,
-                  ),
+                                  decoration: BoxDecoration(
+
+                                  color: Colors.white,
+
+                                    borderRadius: BorderRadius.circular(20),
+
+
+                                  ),
+
+                                  child: Text("10",style: TextStyle(
+
+                                    color:Colors.black,
+                                  ),),
+                                 )
+                                
+                              ],
+                            ),
+                      ],
+                    )
+                  ],
+
+
                 ),
 
-                Text(
-                  "12:45",
-                  style: TextStyle(
-                    color: Colors.grey,
-                    fontSize: 14,
-                  ),
-                ),
-              ],
-            ),
+              )
+        ],
 
-            SizedBox(height: 6),
 
-            // Last Message
-            RichText(
-              text: TextSpan(
-                children: [
-                  TextSpan(
-                    text: "You: ",
-                    style: TextStyle(
-                      color: Colors.grey,
-                      fontWeight: FontWeight.bold,
-                      fontSize: 15,
-                    ),
-                  ),
-                  TextSpan(
-                    text: "Ani amma deemeera.badhaasaan dhufee si dhabee deebihee rafe nyaate rafe what everthing you do can ",
-                    style: TextStyle(
-                      color: Colors.grey,
-                      fontSize: 15,
-                    ),
-                  ),
-                ],
-              ),
-            ),
-          ],
-        ),
+      
       ),
-    ],
+
+      
+
+    
   ),
-)
+
+      
+
+
+    floatingActionButton: Column(
+
+
+      mainAxisSize: MainAxisSize.min,    
+      children: [
+
+           FloatingActionButton(
+
+            backgroundColor: Colors.blueGrey,
+            
+            
+            onPressed:(){
+
+
+           },
+         child: Icon(Icons.edit,size: 30, 
+         color: Colors.black,),
+           
+           
+           ),
+
+
+
+           SizedBox(height: 40,),
+     
+
+        FloatingActionButton(
+        
+          backgroundColor: Colors.blue,
+          
+                         onPressed: (){
+                            
+        
+        
+                         },
+        
+               child: Icon(Icons.camera_alt, size: 40,)
+          ),
+      ],
+    ),
+
+);
 
 
             
-            ],
-          ),
-          
-             
-          ),
-
-        
-
-         
-
-    ) ;
   }
 }
+
+

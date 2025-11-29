@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:yai_app/input_form.dart';
+import 'package:yai_app/registration_page.dart';
 import 'package:yai_app/telegram_clone.dart';
+
 
 
 
@@ -22,7 +25,8 @@ class MyApp extends StatelessWidget{
           scaffoldBackgroundColor: Colors.black,
          ),
       
-          home:TelegramClone(),
+          home:InputForm(),
+          
         
            );
     
